@@ -1,0 +1,24 @@
+    body{
+        background-color: rgb(47, 62, 133);
+        text-align: center;
+    }
+main{
+    background-color: rgb(218, 218, 226);
+}
+a p{
+    background-color: rgb(160, 221, 221);
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px auto;
+    transition: 1s all;
+}
+a p:hover{
+background-color: rgb(27, 119, 114);
+transform: scale(1.2);
+}
+    
+        
+    
