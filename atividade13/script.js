@@ -2,8 +2,7 @@ function contar(){
     let saida = document.getElementyById('saida')
     let cont = 1
     while(cont <= 10){
-       saida.InnerHTML += `<p> &#xF449 <mark>${cont}</mark> </p>`
+       saida.InnerHTML += `<p> &#x1F449 <mark>${cont} </p>`
        cont++;;
 }
-saida.InnerHTML += `<p>&#xF33C1</p>`
 }
