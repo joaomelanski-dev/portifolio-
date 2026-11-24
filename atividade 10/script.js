@@ -4,11 +4,14 @@ function estacao(){
 
 mes = mes.toUpperCase();
 
-if(mes == 'DEZEMBRO' || 'JANEIRO' ||  mes == 'FEVEREIRO'){
+if(mes == 'DEZEMBRO' || mes == 'JANEIRO' ||  mes == 'FEVEREIRO'){
  alert("A estação é VERÃO")
-}else{
-
-    
+}if(mes == 'MARÇO' || mes == 'ABRIL' ||  mes == 'MAIO'){
+ alert("A estação é OUTONO") 
+}if(mes == 'JUNHO' || mes == 'JULHO' ||  mes == 'AGOSTO'){
+ alert("A estação é INVERNO ")
+}if(mes == 'SETEMBRO' || mes == 'OUTUBRO' ||  mes == 'NOVEMBRO'){
+ alert("A estação é PRIMAVERA")
 }
 
 
